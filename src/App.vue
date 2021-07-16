@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
 
     <div class="header">
        <Header/>
@@ -39,8 +40,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#app {
- 
-}
+<style lang="scss" scoped>
+
 </style>
