@@ -78,7 +78,7 @@ export default {
     .contenuto-jumbo-sx{
         position: absolute;
         top:3%;
-        left:4%;
+        left:15%;
     }
     .contenuto-jumbo-dx{
         position: absolute;
