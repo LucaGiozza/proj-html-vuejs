@@ -64,6 +64,7 @@ export default {
 }
 .container-fluid{
     height:500px;
+    overflow:hidden;
     
     padding:0;
     
