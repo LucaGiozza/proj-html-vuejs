@@ -22,7 +22,7 @@
                       <div class="descrizione">
                           <h3><strong>Two man teams</strong> </h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
+                          <span class="bottone"><a href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=QDY0PkXpqxyLUIh0Hl2wPz%3ALUkByI-QBH2hrTM0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><strong>read more</strong></a> </span>
                       </div>
                       
 
@@ -35,7 +35,7 @@
                       <div class="descrizione">
                           <h3> <strong>We do all the lifting</strong> </h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
+                           <span class="bottone"><a href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=QDY0PkXpqxyLUIh0Hl2wPz%3ALUkByI-QBH2hrTM0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><strong>read more</strong></a> </span>
                       </div>
                       
 
@@ -47,7 +47,11 @@
                        <div class="descrizione">
                             <h3> <strong>Coast to coast</strong> </h3>
                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                       
+                           <span class="bottone"><a href="https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226?irgwc=1&clickid=QDY0PkXpqxyLUIh0Hl2wPz%3ALUkByI-QBH2hrTM0&iradid=275988&irpid=1292887&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1292887&utm_medium=affiliate&utm_source=impact_radius"><strong>read more</strong></a></span>
 
+                       
+                           
                        </div>
                       
 
@@ -109,13 +113,42 @@ img{
     p{
         max-width: 80%;
         margin:auto;
+        padding-bottom:30px;
     }
     .descrizione{
-        border:15px solid #e9e9e9;
-        margin-right:30px;
+        border-right:15px solid #e9e9e9;
+        border-left:15px solid #e9e9e9;
+        border-bottom:15px solid #e9e9e9;
+        margin-right:15px;
+        .bottone{
+            display:flex;
+            justify-content: center;
+            background-color:#1975c0;
+            width:160px;
+            margin: auto;
+            border-radius: 18px;
+            padding: 10px 2px;
+            cursor: pointer;
+            margin-bottom:20px;
+            a{
+                 text-transform: uppercase;
+                 font-size:13px;
+                 color:white;
+                 text-decoration: none;
+            }
+           
+        }
+       
         
     }
 }
+
+// hover
+  .bottone:hover{
+                filter: brightness(1.25);
+            }
+
+
 
 
 </style>
