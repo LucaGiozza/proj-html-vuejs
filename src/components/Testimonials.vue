@@ -37,7 +37,7 @@
     </div>
 
      <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center ciao">
         <h6 class="bottone"> <a href="https://avada.theme-fusion.com/movers/testimonials/"><strong>Read more testimonials</strong></a></h6>
         
 
@@ -65,6 +65,7 @@ export default {
 }
 .posizione{
   position: relative;
+  padding-bottom: 200px;;
 }
 .container-fluid{
   
@@ -133,7 +134,7 @@ p{
           filter: brightness(1.25);
        }
        .posizione{
-         overflow:inherit;
+         overflow:hidden;
        }
 
 </style>
