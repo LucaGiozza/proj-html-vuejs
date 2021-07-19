@@ -2,7 +2,7 @@
   <div>
       <div class="container-fluid">
           <div class="row">
-              <div class="contenitore column-6">
+              <div class="contenitore ">
                   <div>
                       <p class="mt-5 free "> <strong>headche free</strong> </p>
                       <h2 class="winning mt-2">Award Winning Moving Company</h2>
@@ -10,12 +10,7 @@
                       <p class="bott mt-4"> <strong>Read our testimonials</strong> </p>
                                      
                   </div>
-                  <div class="column-6">
-                      <div>
-    
-                      </div>
-
-                  </div>
+                
 
               </div>
           </div>
@@ -35,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 .container-fluid{
     background-color:#e9e9e9;
-}
+    
 .row{
     display:flex;
     justify-content: center;
@@ -53,7 +48,7 @@ export default {
         font-size: 36px;;
     }
     .free{
-        padding-top:100px;
+        padding-top:200px;
         color:rgb(124, 121, 121);
         text-transform: uppercase;
     }
@@ -75,6 +70,7 @@ export default {
 }
 .bott:hover{
     filter:brightness(1.20)
+}
 }
 
 

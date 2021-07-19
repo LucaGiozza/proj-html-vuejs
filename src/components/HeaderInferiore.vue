@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
       <div class="row">
-          <div class="column-12 sm-6 contenitore">
+          <div class="contenitore">
               <img class="jumbotrone" src="@/assets/img/foto1.jpg" alt="">
               <div class="contenuto-jumbo-sx">
                   <img src="@/assets/img/foto11.png" alt="">
@@ -36,6 +36,7 @@
                       <h4> <i class="fab fa-telegram-plane"></i>get a free quote online now! </h4>
 
                   </div>
+                 
                    
 
               
@@ -64,7 +65,8 @@ export default {
 }
 .container-fluid{
     height:500px;
-    overflow:hidden;
+    
+
     
     padding:0;
     
@@ -123,7 +125,7 @@ export default {
 
     .banner-header-inferiore{
         background-color:#1975c0 ;
-        height:150px;
+        height:100px;
         display:flex;
         justify-content: center;
         vertical-align: middle;
@@ -132,9 +134,12 @@ export default {
             align-items: center;
             color:white;
             text-transform: uppercase;
+            font-size:15px;
+            font-family: sans-serif;
+            padding-left:10px;
             i{
-                margin-right: 15px;
-                margin-top:8px;
+                margin-right: 10px;
+                
             }
         }
     }
@@ -150,6 +155,9 @@ export default {
         cursor:pointer;
        filter: brightness(1.30);
         
+    }
+    *{
+        // overflow-x:hidden;
     }
 
 

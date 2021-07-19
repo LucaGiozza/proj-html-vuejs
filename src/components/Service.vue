@@ -92,7 +92,7 @@ export default {
 }
 img{
     
-    border:15px solid #e9e9e9;
+    border:10px solid #e9e9e9;
     
 
         
@@ -116,10 +116,11 @@ img{
         padding-bottom:30px;
     }
     .descrizione{
-        border-right:15px solid #e9e9e9;
-        border-left:15px solid #e9e9e9;
-        border-bottom:15px solid #e9e9e9;
-        margin-right:15px;
+        border-right:10px solid #e9e9e9;
+        border-left:10px solid #e9e9e9;
+        border-bottom:10px solid #e9e9e9;
+        margin-right:10px;
+        width:419px;
         .bottone{
             display:flex;
             justify-content: center;
