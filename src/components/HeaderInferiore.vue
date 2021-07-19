@@ -156,9 +156,6 @@ export default {
        filter: brightness(1.30);
         
     }
-    *{
-        // overflow-x:hidden;
-    }
-
+   
 
 </style>

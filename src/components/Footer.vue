@@ -41,6 +41,9 @@
     </div>
     <!-- footer inferiore -->
     <div class="footer-inferiore">
+      <p class="copy">@ Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress</p>
+      <p><i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i> <i class="fab fa-youtube"></i></p>
+
 
     </div>
 
@@ -75,6 +78,9 @@ ul{
     a:hover{
       color:#69bf14;
     }
+    i{
+      margin-right: 5px;
+    }
   }
 }
 
@@ -93,6 +99,23 @@ h5{
   width:180px;
   padding-top:30px;
 }
+
+
+// footer inferiore
+.footer-inferiore{
+  height: 120px;
+  background-color: #69bf14;
+  color:white;
+  text-align: center;
+  .copy{
+    padding-top:40px;
+    font-size: 12px;
+  }
+  i{
+    margin-right: 20px;
+  }
+}
+
 
 
 
