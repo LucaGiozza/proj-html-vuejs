@@ -45,6 +45,7 @@ export default {
     text-align: center;
     .winning{
         color:#69bf14;
+        margin-bottom:40px;
         
         width: 39%;
         margin-left: 31%;
@@ -61,6 +62,7 @@ export default {
 }
 .lorem{
     color:gray;
+    padding-bottom: 20px;
 }
 .bott{
     padding:5px 10px;
@@ -69,6 +71,7 @@ export default {
     margin-left:37%;
     border-radius: 22px; 
     color:white;
+    margin-bottom: 80px;
 }
 .bott:hover{
     filter:brightness(1.20)

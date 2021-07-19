@@ -25,10 +25,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .container-fluid{
     padding-top:150px;
     height:700px;
     position: relative;
+    padding-right:0;
+    padding-left:0;
     
   .green{
         
@@ -96,5 +103,8 @@ img{
 .bottone:hover{
     filter: brightness(1.25);
 }
+
+
+
 
 </style>

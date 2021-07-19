@@ -16,7 +16,7 @@
           <!-- tre colonne -->
           <div class="container-fluid d-flex">
               <div class="row">
-                  <div class="column-4 first">
+                  <div class=" first">
                       <img src="@/assets/img/foto16.jpg" alt="">
                       
                       <div class="descrizione">
@@ -30,7 +30,7 @@
                   </div>
 
                    <div class="row">
-                  <div class="column-4 first">
+                  <div class=" first">
                       <img src="@/assets/img/foto24.jpg" alt="">
                       <div class="descrizione">
                           <h3> <strong>We do all the lifting</strong> </h3>
@@ -42,7 +42,7 @@
                   </div>
                   </div>
                   <div class="row">
-                  <div class="column-4 first">
+                  <div class=" first">
                        <img src="@/assets/img/foto20.jpg" alt="">
                        <div class="descrizione">
                             <h3> <strong>Coast to coast</strong> </h3>
@@ -148,6 +148,12 @@ img{
                 filter: brightness(1.25);
             }
 
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 
 
