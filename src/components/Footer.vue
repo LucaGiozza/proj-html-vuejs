@@ -135,6 +135,10 @@ i:hover{
 }
 
 
+img:hover{
+  filter: drop-shadow(16px 16px 20px black) invert(75%);
+}
+
 
 
 

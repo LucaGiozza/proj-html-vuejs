@@ -96,7 +96,8 @@ export default {
     
   }
    .green:hover{
-            transform: scale(1.5);
+            transform: scale(1.4);
+             filter: drop-shadow(16px 16px 20px yellow ) invert(85%);
         }
 }
 img{

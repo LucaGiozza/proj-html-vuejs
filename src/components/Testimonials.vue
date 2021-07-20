@@ -143,6 +143,7 @@ p{
 
        .foto:hover{
          transform: scale(1.3);
+         filter: contrast(150%);
 
        }
 

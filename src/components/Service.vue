@@ -106,6 +106,7 @@ img:hover{
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    filter: contrast(150%);
 }
     
 .first{
