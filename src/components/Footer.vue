@@ -129,6 +129,11 @@ h5{
  
 }
 
+i:hover{
+  cursor:pointer;
+  color:black;
+}
+
 
 
 
