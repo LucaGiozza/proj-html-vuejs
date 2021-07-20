@@ -93,11 +93,21 @@ export default {
 img{
     
     border:10px solid #e9e9e9;
+
+     transition: opacity 1s,transform 1s;
     
 
         
     
 }
+
+img:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+    
 .first{
     margin-right:30px;
     margin-left:-15px;
@@ -155,6 +165,7 @@ img{
   padding:0;
   box-sizing: border-box;
 }
+
 
 
 

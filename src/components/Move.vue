@@ -47,11 +47,13 @@ export default {
         width:450px;
         height:330px;
         border:10px solid #099614;
+        transition: opacity 1s,transform 1s;
         .inside-green{
             width:80%;
             font-size:14px;
             margin: auto;
             color:white;
+           
             h5{
                 text-transform: uppercase;
                 font-size:10px;
@@ -90,8 +92,12 @@ export default {
            
         }
         }
+       
     
   }
+   .green:hover{
+            transform: scale(1.5);
+        }
 }
 img{
     width:100%;

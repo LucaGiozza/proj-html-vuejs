@@ -43,7 +43,7 @@
             
                   <div class="banner-header-inferiore">
                          
-                      <h4> <i class="fab fa-telegram-plane"></i>get a free quote online now! </h4>
+                      <h4 > <i class="fab fa-telegram-plane"></i><a href="https://avada.theme-fusion.com/movers/free-quote/">get a free quote online now!</a> </h4>
 
                   </div>
                  
@@ -144,11 +144,39 @@ export default {
         width: 500px;
         text-align: center;
         text-transform: uppercase;
+          transition: opacity 1s,transform 1s;
+          animation: 2s   slideInFromLeft;
         p{
             font-size:13px;
+            
+        }
+        h2{
             color:rgb(71, 70, 70);
+
         }
     }
+
+
+    @keyframes slideInFromLeft{
+    0% {
+        filter: blur(5px);
+        
+    }
+    25%{
+       filter: blur(4px);
+    }
+    50%{
+        filter: blur(3px);
+    }
+    75% {
+        filter: blur(2px);
+        
+       
+    }
+    100%{
+       filter: blur(0px);
+    }
+}
 }
 .contenitore{
       position:relative;
@@ -178,8 +206,12 @@ export default {
             padding-left:10px;
             i{
                 margin-right: 10px;
+               
                 
             }
+             a{
+                    color:white;
+                }
         }
     }
     .contenuto-jumbo-dx ul li:hover{
@@ -227,9 +259,13 @@ export default {
 
     }
     #btnScrollToTop:hover{
-        background-color: blue;
+        background-color: #1975c0;;
 
     }
+
+
+
+    
    
 
 </style>

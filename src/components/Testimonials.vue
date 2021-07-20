@@ -15,19 +15,19 @@
 
     </div>
     <div class="row  ">
-      <div class="col-4 sinistra ">
+      <div class="col-4 sinistra foto ">
         <img class="profilo" src="@/assets/img/foto5.jpg" alt="">
         <h5 class="name"> <strong>John Doe</strong> </h5>
         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”</p>
 
       </div>
-      <div class="col-4 centro ">
+      <div class="col-4 centro foto ">
          <img class="profilo" src="@/assets/img/foto2.jpg" alt="">
          <h5 class="name"><strong>Jane Doe</strong> </h5>
          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”</p>
 
       </div>
-      <div class="col-4 destra ">
+      <div class="col-4 destra foto ">
          <img class="profilo" src="@/assets/img/foto8.jpg" alt="">
          <h5 class="name"><strong>John Smith</strong></h5>
          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”</p>
@@ -121,7 +121,7 @@ p{
             padding: 10px 2px;
             cursor: pointer;
             margin-bottom:20px;
-            margin-top:30px;
+            margin-top:50px;
             a{
                  text-transform: uppercase;
                  font-size:13px;
@@ -135,6 +135,15 @@ p{
        }
        .posizione{
          overflow:hidden;
+       }
+
+       .foto{
+         transition: opacity 1s,transform 1s;
+       }
+
+       .foto:hover{
+         transform: scale(1.3);
+
        }
 
 </style>
