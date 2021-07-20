@@ -46,18 +46,28 @@
 
 
     </div>
+   
 
   </div>
 </template>
 
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+
+
+
+ 
 
 }
+
 </script>
 
 <style lang="scss" scoped>
+
+.footer-superiore{
+  height:380px;
+}
 .row{
   display:flex;
   width:85%;
@@ -114,7 +124,15 @@ h5{
   i{
     margin-right: 20px;
   }
+
+
+ 
 }
+
+
+
+
+
 
 
 
